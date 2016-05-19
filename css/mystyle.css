@@ -1,0 +1,218 @@
+
+html 
+{
+  height: 50%;
+}
+
+body
+{
+  background: #ffffff;
+  font-family: 'Slabo 27px', serif;
+  height:100%;
+}
+h1
+{
+    font-family: 'Slabo 27px', serif;
+    color:#0077b5;
+}
+h2,h3
+{
+  font-family: 'Slabo 27px', serif;
+}
+
+.align-right{
+    float:right;
+}
+
+.align-left{
+    float:left;
+}
+
+.header
+{
+    width:90%;
+    height:8%;
+    margin:7px auto;
+    text-align:center;
+}
+ul.navigate_buttons,ul.contact_items 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.navigate_buttons,li.contact_items
+{
+    display:inline;
+    margin:0;
+    padding:5px 1px;
+}
+a.button_about,a.button_education,a.button_experience,a.button_contact
+{
+    color:black;
+    text-decoration: none;
+    padding:5px 50px;
+    margin:0;
+}
+a.thisPage
+{
+   color:#0077b5; 
+}
+a.button_about:hover,a.button_education:hover,a.button_experience:hover,a.button_contact:hover
+{
+    color:#ffffff;
+    background-color:#0077b5;
+}
+
+.container 
+{
+    width: 80%; 
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+.education
+{
+    margin:1%;
+    padding:1%;
+    width 80%;
+    text-align: left;
+    table-layout:fixed;
+}
+th,td
+{
+    padding:2px 20px;
+}
+td.hvr-logo
+{
+    align-content: center;
+    text-align: center;
+}
+td.workDescBox
+{
+    text-align: left;
+}
+.footer 
+{
+    width: 80%; 
+    height: 10%;
+    margin: 20% 10%;
+    text-align: center;
+}
+
+ul.social_buttons 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.social_buttons
+{
+    display:inline;
+    margin:25px;
+}
+
+.profile_pic
+{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../img/myProfilePic.jpg");
+}
+.email_pic
+{
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+}
+.education,.experience,.contact
+{
+    margin:0 auto;
+    align-content:center;
+}
+#plottingArea
+{
+    width:800px; 
+    height:500px;
+    margin:0 auto;
+    align-content:center;
+}
+
+/* Contact page form */
+.contact
+{
+    width:800px;
+    height:400px;
+}
+li.contact_items
+{
+    display:inline-block;
+}
+label.contact_items 
+{
+    display: block;
+    padding: 1px;
+    width: 20px;
+    text-align: left; 
+    font-size: 50%;
+}
+
+input.contact_items  
+{
+    margin: 1px auto;
+    width: 385px;
+    padding: 5px; 
+    font-size: 100%;
+}
+
+textarea.contact_items  
+{
+    margin: 1px auto;
+	width: 790px;
+    padding: 5px;  
+    font-size: 100%; 
+}
+.col-first-half
+{
+    margin-left: 0;
+    float:left;
+    clear: left;
+}
+.col-second-half
+{
+    float: right;
+    clear: right;
+    margin-left: 50%;
+}
+.col-full
+{
+    display: inline; 
+    align-content: center;
+    width: 100%;
+}
+button.contact_items
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../img/emailIcon.png");
+    position:relative;
+    top:-45px;
+
+    color: #ffffff;
+    margin: 0 auto;
+}
+div.g-recaptcha {
+  margin: 0 auto;
+  width: 304px;
+}

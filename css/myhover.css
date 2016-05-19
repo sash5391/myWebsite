@@ -1,0 +1,109 @@
+/*Experience*/
+.workDescBox:hover
+{
+    font-size: 0px;
+}
+.cumminsAtde-content:before
+{
+    color:white;
+    font-size:16px;
+    padding: 10px 10px;
+    background: #da291c;
+    content: "Working closely with combustion, engine performance and emissions teams to develop, maintain and support analysis tools.";
+}
+.purdueGra-content:before
+{
+    color:white;
+    font-size:16px;
+    padding: 10px 10px;
+    background: #b1810b;
+    content: "Tackled complex analysis and CFD coding to engineer a numerical scheme for high speed turbulent flows that are used for reducing jet noise."; 
+}
+.cumminsCoop-content:before
+{
+    color:white;
+    font-size:16px;
+    padding: 10px 10px;
+    background: #da291c;
+    content: "Fueled dependency on analysis-led product design and induced huge cost-savings by building CFD models.";
+}
+.purdueAnalyst-content:before
+{
+    color:white;
+    font-size:16px;
+    padding: 10px 10px;
+    background: #b1810b;
+    content: "Develop useful measures to identify and analyze patterns in author citation data."; 
+}
+.iithResearch-content:before
+{
+    color:white;
+    font-size:16px;
+    padding: 10px 10px;
+    background: #ff6600;
+    content: "Build a 2D simulation code using Lattice-Boltzmann Method (LBM)."; 
+}
+
+/*Education*/
+/*Slide content right when hovering on logo*/
+.hvr-content {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.hvr-content:before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color:white;
+  font-size:16px;
+  padding: 10px 10px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-logo:hover ~ .hvr-content
+{
+    color:white; 
+    font-size: 0px;
+}
+.hvr-logo:hover ~ .hvr-content:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.hbx-content:before
+{
+    background: #a41034;
+    content: "HBX CORe (Credential of Readiness) is a 120-150 hour certificate program on the fundamentals of business from Harvard Business School. CORe is comprised of three courses - Business Analytics, Economics for Managers, and Financial Accounting – developed by leading Harvard Business School faculty and delivered in an active learning environment based on the HBS signature case-based learning model.";
+}
+.purdue-content:before
+{
+    background: #b1810b;
+    content: "The MSAAE thesis option at Purdue University consists of 21 hours of course work and a thesis which receives 9 hours of credit. My dissertation was on Hybridization of compact and WENO schemes for simulation of turbulent flows with shocks.";
+}
+.iith-content:before
+{
+    background: #ff6600;
+    content: "The B.Tech. ME option at IIT Hyderabad is a comprehensive undergraduate degree course with a minimum of 160 credit hours. I also pursued an optional Minor in Physics requiring 12 credit hours and a Honors requiring 12 credit hours of which  were for an undergraduate thesis. My undergraduate research was focussed on 2D Discrete Phase Modelling using Lattice-Boltzmann Method.";
+}
